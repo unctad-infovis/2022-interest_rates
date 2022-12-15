@@ -43,7 +43,7 @@ function Figure1() {
         note=""
         show_first_label
         source="SOURCE"
-        subtitle="Central banks interest rate in hundreds of basis points"
+        subtitle="Central banks interest rate in hundreds of basis points, Interest rate in hundreds of basis point"
         suffix="%"
         title="Interest rate hikes are hitting harder the developing economies"
         xlabel=""

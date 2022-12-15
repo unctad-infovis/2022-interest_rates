@@ -50,7 +50,7 @@ function Figure2() {
         note=""
         show_first_label
         source="SOURCE"
-        subtitle="Number of central bank interest rate increases"
+        subtitle="Number of central bank interest rate increases since December 2021"
         suffix=""
         title="Interest rate hikes are hitting harder the developing economies"
         ylabel=""

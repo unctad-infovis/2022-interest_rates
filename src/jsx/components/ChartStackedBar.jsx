@@ -342,7 +342,7 @@ function StackedBarChart({
             fontSize: '16px',
             fontWeight: 400
           },
-          text: 'Interest rate in hundreds of basis points',
+          text: null,
           y: 10
         },
         type: 'linear'
