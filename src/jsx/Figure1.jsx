@@ -42,7 +42,7 @@ function Figure1() {
         data={dataFigure}
         note=""
         show_first_label
-        source="SOURCE"
+        source="UNCTAD secretariat calculations based on Refinitiv"
         subtitle="Central banks interest rate in hundreds of basis points, Interest rate in hundreds of basis point"
         suffix="%"
         title="Interest rate hikes are hitting harder the developing economies"

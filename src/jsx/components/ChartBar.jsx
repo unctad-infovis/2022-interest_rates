@@ -246,6 +246,7 @@ function BarChart({
         plotLines: null,
         showFirstLabel: true,
         showLastLabel: true,
+        tickInterval: 2,
         tickWidth: 1,
         title: {
           enabled: true,

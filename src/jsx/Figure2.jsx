@@ -49,11 +49,13 @@ function Figure2() {
         idx="2"
         note=""
         show_first_label
-        source="SOURCE"
+        source="UNCTAD secretariat calculations based on Refinitiv"
         subtitle="Number of central bank interest rate increases since December 2021"
         suffix=""
         title="Interest rate hikes are hitting harder the developing economies"
         ylabel=""
+        ymax={undefined}
+        ytick_interval={2}
       />
       )}
       <noscript>Your browser does not support JavaScript!</noscript>
