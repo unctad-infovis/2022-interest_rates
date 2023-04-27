@@ -231,6 +231,7 @@ function BarChart({
         },
         reserveSpace: true,
         labels: {
+          allowOverlap: true,
           formatter: (el) => ((el.value === 'World') ? `<strong>${el.value}</strong>` : (el.value === 'Latin America and the Caribbean') ? 'Latin America and<br />the Caribbean' : el.value),
           rotation: 0,
           style: {
@@ -246,7 +247,7 @@ function BarChart({
         plotLines: null,
         showFirstLabel: true,
         showLastLabel: true,
-        tickInterval: 2,
+        tickInterval: 1,
         tickWidth: 1,
         title: {
           enabled: true,
@@ -273,6 +274,7 @@ function BarChart({
         gridLineWidth: 1,
         gridLineDashStyle: 'shortdot',
         labels: {
+          allowOverlap: true,
           formatter: (el) => (`${prefix}${el.value}`),
           rotation: 0,
           style: {
