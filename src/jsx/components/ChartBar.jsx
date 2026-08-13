@@ -46,7 +46,7 @@ Highcharts.SVGRenderer.prototype.symbols.download = (x, y, w, h) => {
 };
 
 function BarChart({
-  chart_height, data, data_decimals, idx, labels_align, labels_inside, note, prefix, source, subtitle, title, xlabel, ylabel, ytick_interval, ymax, ymin
+  chart_height = 800, data, data_decimals, idx, labels_align = undefined, labels_inside = false, note = false, prefix = '', source, subtitle = false, title, xlabel = '', ylabel = '', ytick_interval = undefined, ymax = undefined, ymin = undefined
 }) {
   const chartRef = useRef();
 
@@ -353,20 +353,6 @@ BarChart.propTypes = {
   ytick_interval: PropTypes.number,
   ymax: PropTypes.number,
   ymin: PropTypes.number
-};
-
-BarChart.defaultProps = {
-  chart_height: 800,
-  labels_align: undefined,
-  labels_inside: false,
-  note: false,
-  prefix: '',
-  subtitle: false,
-  xlabel: '',
-  ylabel: '',
-  ytick_interval: undefined,
-  ymax: undefined,
-  ymin: undefined
 };
 
 export default memo(BarChart);
